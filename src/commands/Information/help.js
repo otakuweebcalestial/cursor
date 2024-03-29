@@ -17,17 +17,17 @@ module.exports = {
   execute: async (message, args, client, prefix) => {
     const lawde = new MessageActionRow().addComponents(
       new MessageButton()
-        .setLabel("Vote Me")
+        .setLabel("YT Channel")
         .setStyle("LINK")
-        .setURL(`https://discord.gg/k7euMVR4q6`),
+        .setURL(`https://www.youtube.com/@calestialotaku`),
       new MessageButton()
-        .setLabel("Invite")
+        .setLabel("Instagram")
         .setStyle("LINK")
-        .setURL(`https://discord.gg/k7euMVR4q6`),
+        .setURL(`www.instagram.com/calestialotaku`),
       new MessageButton()
-        .setLabel("Support")
+        .setLabel("X")
         .setStyle("LINK")
-        .setURL("https://discord.gg/k7euMVR4q6"),
+        .setURL("https://x.com/CalestialOtaku"),
     );
 
     let helpmenu = new MessageEmbed()
@@ -41,18 +41,18 @@ module.exports = {
       )
 
       .setDescription(
-        `<:online:1210253399031812147> Prefix for this server is: ${prefix}\n<:online:1210253399031812147> Total Commands: ${client.commands.size}\n<:online:1210253399031812147>**A Rich Quality Music Bot
+        `<a:cursor1:1223137851064188949> Prefix for this server is: ${prefix}\n<:online:1210253399031812147> Total Commands: ${client.commands.size}\n<:online:1210253399031812147>**A Rich Quality Music Bot
 Prefix For this server : - **
   
-  <:online:1210253399031812147> [Invite ${client.user.username}](https://discord.gg/k7euMVR4q6)
+  <a:cursor1:1223137851064188949> [Invite ${client.user.username}](https://discord.gg/k7euMVR4q6)
   
-  <:online:1210253399031812147> [Vote ${client.user.username}](https://discord.gg/k7euMVR4q6)
+  <a:cursor1:1223137851064188949> [Vote ${client.user.username}](https://discord.gg/k7euMVR4q6)
 \n**Command Categories**\n<:online:1210253399031812147> : **Info**\n<:online:1210253399031812147> : **Music**\n<:online:1210253399031812147> : **Filters**\n<:online:1210253399031812147> : **Settings**\n<:online:1210253399031812147> :  **Utility**\n<:online:1210253399031812147> : **All Commands**`,
       )
 
       //  .setFooter(ee.footertext, ee.footericon)
       .setFooter({
-        text: `Made With 💖 By king`,
+        text: `Thanks For Using Cursor`,
         iconURL: message.guild.iconURL({ dynamic: true }),
       })
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
@@ -65,39 +65,39 @@ Prefix For this server : - **
         .addOptions([
           {
             label: "Info",
-            description: "Information Commands Of king",
+            description: "Information Commands Of Cursor",
             value: "first",
-            emoji: "❕",
+            emoji: "<:_Bot_Category_Info:1223138694765084772>",
           },
           {
             label: "Music",
-            description: "Music Commands Of king",
+            description: "Music Commands Of Cursor",
             value: "second",
-            emoji: "🎵",
+            emoji: "<:music_category:1223138901787414640>",
           },
           {
             label: "Filters",
-            description: "Filter Commands Of king",
+            description: "Filter Commands Of Cursor",
             value: "fourth",
-            emoji: "🔊",
+            emoji: "<:_Bot_Category_Thanks:1223139168599806062>",
           },
           {
             label: "Setting",
-            description: "Configuration Commands Of king",
+            description: "Configuration Commands Of Cursor",
             value: "fifth",
-            emoji: "⚙",
+            emoji: "<:_Bot_Category_Settings:1223139262699012177>",
           },
           {
             label: "Utility",
-            description: "Utility commands of king",
+            description: "Utility commands of Cursor",
             value: "sixth",
-            emoji: "🎶",
+            emoji: "<:_Bot_Category_Moderation:1223139372723994755>",
           },
           {
             label: "All Commands",
-            description: "All Commands Of king",
+            description: "All Commands Of Cursor",
             value: "third",
-            emoji: "📃",
+            emoji: "<:_Bot_Category_Premium:1223139478982361221>",
           },
         ]),
     );
