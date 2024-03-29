@@ -27,7 +27,7 @@ module.exports = {
       new MessageButton()
         .setLabel("X")
         .setStyle("LINK")
-        .setURL("https://x.com/CalestialOtaku"),
+        .setURL(`https://x.com/CalestialOtaku`),
     );
 
     let helpmenu = new MessageEmbed()
