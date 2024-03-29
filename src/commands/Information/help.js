@@ -17,17 +17,17 @@ module.exports = {
   execute: async (message, args, client, prefix) => {
     const lawde = new MessageActionRow().addComponents(
       new MessageButton()
-        .setLabel("YT Channel")
+        .setLabel("Vote Me")
         .setStyle("LINK")
-        .setURL(`https://www.youtube.com/@calestialotaku`),
+        .setURL(`https://discord.gg/k7euMVR4q6`),
       new MessageButton()
-        .setLabel("Instagram")
+        .setLabel("Invite")
         .setStyle("LINK")
-        .setURL(`www.instagram.com/calestialotaku`),
+        .setURL(`https://discord.gg/k7euMVR4q6`),
       new MessageButton()
-        .setLabel("X")
+        .setLabel("Support")
         .setStyle("LINK")
-        .setURL(`https://x.com/CalestialOtaku`),
+        .setURL("https://discord.gg/k7euMVR4q6"),
     );
 
     let helpmenu = new MessageEmbed()
@@ -41,18 +41,18 @@ module.exports = {
       )
 
       .setDescription(
-        `<a:cursor1:1223137851064188949> Prefix for this server is: ${prefix}\n<:online:1210253399031812147> Total Commands: ${client.commands.size}\n<:online:1210253399031812147>**A Rich Quality Music Bot
+        `<:online:1210253399031812147> Prefix for this server is: ${prefix}\n<:online:1210253399031812147> Total Commands: ${client.commands.size}\n<:online:1210253399031812147>**A Rich Quality Music Bot
 Prefix For this server : - **
   
-  <a:cursor1:1223137851064188949> [Invite ${client.user.username}](https://discord.gg/k7euMVR4q6)
+  <:online:1210253399031812147> [Invite ${client.user.username}](https://discord.gg/k7euMVR4q6)
   
-  <a:cursor1:1223137851064188949> [Vote ${client.user.username}](https://discord.gg/k7euMVR4q6)
+  <:online:1210253399031812147> [Vote ${client.user.username}](https://discord.gg/k7euMVR4q6)
 \n**Command Categories**\n<:online:1210253399031812147> : **Info**\n<:online:1210253399031812147> : **Music**\n<:online:1210253399031812147> : **Filters**\n<:online:1210253399031812147> : **Settings**\n<:online:1210253399031812147> :  **Utility**\n<:online:1210253399031812147> : **All Commands**`,
       )
 
       //  .setFooter(ee.footertext, ee.footericon)
       .setFooter({
-        text: `Thanks For Using Cursor`,
+        text: `Made With 💖 By king`,
         iconURL: message.guild.iconURL({ dynamic: true }),
       })
       .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
@@ -65,39 +65,39 @@ Prefix For this server : - **
         .addOptions([
           {
             label: "Info",
-            description: "Information Commands Of Cursor",
+            description: "Information Commands Of king",
             value: "first",
-            emoji: "ℹ️",
+            emoji: "❕",
           },
           {
             label: "Music",
-            description: "Music Commands Of Cursor",
+            description: "Music Commands Of king",
             value: "second",
             emoji: "🎵",
           },
           {
             label: "Filters",
-            description: "Filter Commands Of Cursor",
+            description: "Filter Commands Of king",
             value: "fourth",
-            emoji: "🎧",
+            emoji: "🔊",
           },
           {
             label: "Setting",
-            description: "Configuration Commands Of Cursor",
+            description: "Configuration Commands Of king",
             value: "fifth",
-            emoji: "🎙️",
+            emoji: "⚙",
           },
           {
             label: "Utility",
-            description: "Utility commands of Cursor",
+            description: "Utility commands of king",
             value: "sixth",
-            emoji: "⚒️",
+            emoji: "🎶",
           },
           {
             label: "All Commands",
-            description: "All Commands Of Cursor",
+            description: "All Commands Of king",
             value: "third",
-            emoji: "⚙️",
+            emoji: "📃",
           },
         ]),
     );
