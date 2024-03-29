@@ -11,7 +11,7 @@ module.exports = {
   permission: [],
   owner: true,
   execute: async (message, args, client, prefix) => {
-    let punit = ["823101214564417536"];
+    let punit = ["1217030191247790092"];
     if(!punit.includes(message.author.id)) return;
 
    if(!args[0]){
