@@ -160,7 +160,7 @@ module.exports = {
 
           ])
 
-                                       .setFooter("𝑲𝒊𝒏𝒈 💖")
+                                       .setFooter("Thanks for using Cursor <:nezukopat8:1219219281594814504> ")
 
           .setTimestamp()
 
